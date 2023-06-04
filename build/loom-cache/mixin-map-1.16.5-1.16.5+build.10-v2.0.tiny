@@ -1,3 +1,0 @@
-v1	named	intermediary
-FIELD	com/sonicether/soundphysics/mixin/SourceMixin	I	pointer	field_18893
-METHOD	com/sonicether/soundphysics/mixin/EntityMixin	()F	getStandingEyeHeight	method_5751
