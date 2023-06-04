@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "com/sonicether/soundphysics/mixin/SoundSystemMixin": {
+      "net/minecraft/util/math/MathHelper.clamp(FFF)F": "Lnet/minecraft/class_3532;method_15363(FFF)F",
+      "play(Lnet/minecraft/client/sound/SoundInstance;)V": "Lnet/minecraft/class_1140;method_4854(Lnet/minecraft/class_1113;)V",
+      "getAdjustedVolume": "Lnet/minecraft/class_1140;method_4853(Lnet/minecraft/class_1113;)F",
+      "start": "Lnet/minecraft/class_1140;method_4846()V",
+      "net/minecraft/client/sound/SoundListener.init()V": "Lnet/minecraft/class_4227;method_19673()V",
+      "net/minecraft/client/sound/SoundSystem.sounds:Lcom/google/common/collect/Multimap;": "Lnet/minecraft/class_1140;field_18951:Lcom/google/common/collect/Multimap;"
+    },
+    "com/sonicether/soundphysics/mixin/SourceMixin": {
+      "play": "Lnet/minecraft/class_4224;method_19650()V",
+      "setAttenuation": "Lnet/minecraft/class_4224;method_19651(F)V",
+      "setPosition": "Lnet/minecraft/class_4224;method_19641(Lnet/minecraft/class_243;)V"
+    },
+    "com/sonicether/soundphysics/mixin/EntityMixin": {
+      "playSound": "Lnet/minecraft/class_1297;method_5783(Lnet/minecraft/class_3414;FF)V",
+      "net/minecraft/world/World.playSound(Lnet/minecraft/entity/player/PlayerEntity;DDDLnet/minecraft/sound/SoundEvent;Lnet/minecraft/sound/SoundCategory;FF)V": "Lnet/minecraft/class_1937;method_8465(Lnet/minecraft/class_1657;DDDLnet/minecraft/class_3414;Lnet/minecraft/class_3419;FF)V"
+    },
+    "com/sonicether/soundphysics/mixin/ServerWorldMixin": {
+      "playSoundFromEntity": "Lnet/minecraft/class_3218;method_8449(Lnet/minecraft/class_1657;Lnet/minecraft/class_1297;Lnet/minecraft/class_3414;Lnet/minecraft/class_3419;FF)V",
+      "net/minecraft/server/PlayerManager.sendToAround(Lnet/minecraft/entity/player/PlayerEntity;DDDDLnet/minecraft/util/registry/RegistryKey;Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/class_3324;method_14605(Lnet/minecraft/class_1657;DDDDLnet/minecraft/class_5321;Lnet/minecraft/class_2596;)V",
+      "playSound": "Lnet/minecraft/class_3218;method_8465(Lnet/minecraft/class_1657;DDDLnet/minecraft/class_3414;Lnet/minecraft/class_3419;FF)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/sonicether/soundphysics/mixin/SoundSystemMixin": {
+        "net/minecraft/util/math/MathHelper.clamp(FFF)F": "Lnet/minecraft/class_3532;method_15363(FFF)F",
+        "play(Lnet/minecraft/client/sound/SoundInstance;)V": "Lnet/minecraft/class_1140;method_4854(Lnet/minecraft/class_1113;)V",
+        "getAdjustedVolume": "Lnet/minecraft/class_1140;method_4853(Lnet/minecraft/class_1113;)F",
+        "start": "Lnet/minecraft/class_1140;method_4846()V",
+        "net/minecraft/client/sound/SoundListener.init()V": "Lnet/minecraft/class_4227;method_19673()V",
+        "net/minecraft/client/sound/SoundSystem.sounds:Lcom/google/common/collect/Multimap;": "Lnet/minecraft/class_1140;field_18951:Lcom/google/common/collect/Multimap;"
+      },
+      "com/sonicether/soundphysics/mixin/SourceMixin": {
+        "play": "Lnet/minecraft/class_4224;method_19650()V",
+        "setAttenuation": "Lnet/minecraft/class_4224;method_19651(F)V",
+        "setPosition": "Lnet/minecraft/class_4224;method_19641(Lnet/minecraft/class_243;)V"
+      },
+      "com/sonicether/soundphysics/mixin/EntityMixin": {
+        "playSound": "Lnet/minecraft/class_1297;method_5783(Lnet/minecraft/class_3414;FF)V",
+        "net/minecraft/world/World.playSound(Lnet/minecraft/entity/player/PlayerEntity;DDDLnet/minecraft/sound/SoundEvent;Lnet/minecraft/sound/SoundCategory;FF)V": "Lnet/minecraft/class_1937;method_8465(Lnet/minecraft/class_1657;DDDLnet/minecraft/class_3414;Lnet/minecraft/class_3419;FF)V"
+      },
+      "com/sonicether/soundphysics/mixin/ServerWorldMixin": {
+        "playSoundFromEntity": "Lnet/minecraft/class_3218;method_8449(Lnet/minecraft/class_1657;Lnet/minecraft/class_1297;Lnet/minecraft/class_3414;Lnet/minecraft/class_3419;FF)V",
+        "net/minecraft/server/PlayerManager.sendToAround(Lnet/minecraft/entity/player/PlayerEntity;DDDDLnet/minecraft/util/registry/RegistryKey;Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/class_3324;method_14605(Lnet/minecraft/class_1657;DDDDLnet/minecraft/class_5321;Lnet/minecraft/class_2596;)V",
+        "playSound": "Lnet/minecraft/class_3218;method_8465(Lnet/minecraft/class_1657;DDDLnet/minecraft/class_3414;Lnet/minecraft/class_3419;FF)V"
+      }
+    }
+  }
+}
